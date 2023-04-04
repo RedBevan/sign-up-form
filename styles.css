@@ -1,0 +1,57 @@
+:root {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: lightgray;
+}
+
+.page-container {
+  border: 3px solid green;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.image-div {
+  border-color: blue;
+  background-color: peru;
+
+  height: 800px;
+  width: 40vw;
+}
+
+.logo-container-div {
+  background-color: black;
+  opacity: 75%;
+
+  height: 120px;
+  margin: 180px 0 0 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-div {
+  color: white;
+  border: 3px dashed green;
+
+  font-family: 'Skranji', cursive;
+  font-size: 28px;
+
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+}
+
+.odin-image {
+  height: 100%;
+}
+
+.form-container {
+  border: 2px solid red;
+
+  margin: 180px 0 0 0;
+  height: 100%;
+}
