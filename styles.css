@@ -45,6 +45,13 @@
 }
 
 .odin-image {
+  transition: transform .5s ease-in-out;
+}
+img:hover {
+  transform: rotate(360deg);
+}
+
+.odin-image {
   height: 100%;
 }
 
